@@ -1,20 +1,17 @@
-# CrazyGames / embed / 4K notes
+# CrazyGames hosting
 
-## Hosting
+See also **CRAZYGAMES_SDK.md** for leaderboard scores.
 
-1. Upload single file `HOOPS_PRO_PREMIUM.html` (or packed loader + parts).
-2. Game detects iframe (`IS_EMBED`) and lowers particle/crowd budget.
-3. Canvas scales with viewport; DPR capped with pixel budget (~8MP) for 4K stability.
-4. `localStorage` wrapped in try/catch for private/iframe restrictions.
+## Upload
 
-## QA checklist
+- Engine: HTML5 / externally hosted zip with `HOOPS_PRO_PREMIUM.html` as entry
+- Enable mobile if desired
+- Progress Save: optional Data Module (SDK helpers ready)
+- Leaderboard: configure encryption key then set `HOOPS_CG_ENCRYPTION_KEY`
 
-- [ ] Loads inside iframe without console errors
-- [ ] First click unlocks audio
-- [ ] Resize / orientation keeps canvas visible
-- [ ] Manager save survives refresh when storage allowed
-- [ ] Putback does not fire after match end
+## QA
 
-## Limits
-
-Still HTML5 2D canvas — not native 4K PBR. "4K ready" means sharp scaling + stable FPS, not console-grade graphics.
+- [ ] SDK init without error in Preview
+- [ ] gameplayStart/Stop on match
+- [ ] submitScore after final buzzer when key set
+- [ ] iframe resize / 4K stable
