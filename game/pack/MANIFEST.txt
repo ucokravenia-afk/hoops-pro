@@ -1,0 +1,3 @@
+parts=4
+src=HOOPS_PRO_PREMIUM.html
+version=1.0.0-premium-browser

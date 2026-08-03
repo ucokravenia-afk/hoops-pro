@@ -1,14 +1,26 @@
 # Changelog
 
-## 2026-08-03 Fix pass — CrazyGames / 4K
-- Adaptive canvas scale + DPR budget for large monitors
-- Embed detection + lower FX budget in iframe
-- safeStorage* for restricted localStorage
-- Putback setTimeout respects `running`
-- Null-safe lineup / playerAvailable
+## 1.0.0-premium-browser — 2026-08-03
 
-## 2026-08-03 Studio pass B — Rebound
-- Weighted rebound, OREB, putback, tip-out
+### Gameplay & systems
+- Rebound contest (OREB / putback / tip-out)
+- Career life stages (academy → HoF path)
+- Manager season awards (MVP, DPOY, …)
+- Live ops: events (Christmas, Idul Fitri, …), ranked MMR, coins, season pass XP
+- Daily login rewards + quest cycles
 
-## 2026-08-03 Studio pass A — Medical / Rankings
-- Medical AI, power rankings, season desk
+### Platform
+- CrazyGames SDK v3 + AES-GCM score encryption
+- Mobile touch-ui (joystick, sprint, switch, dynamic stick)
+- i18n: 10 languages + settings panel
+- Embed / 4K adaptive canvas + safe storage
+
+### Presentation
+- Club crest logos + FC-style procedural portraits
+- Premium elegant palette (champagne gold)
+- Arena LED / jumbotron / benches / crowd mood
+
+### Repo
+- MIT license
+- docs/* playbooks
+- game/pack gzip parts for distributing the HTML build

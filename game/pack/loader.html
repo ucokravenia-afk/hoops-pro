@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>HOOPS// PRO — pack loader</title>
+<style>
+body{font-family:system-ui,sans-serif;background:#0a0c10;color:#f3f1ec;padding:24px;max-width:640px;margin:0 auto;}
+pre{background:#151a22;padding:12px;border-radius:8px;overflow:auto;font-size:12px;}
+a{color:#d4af37}
+</style>
+</head>
+<body>
+<h1>HOOPS// PRO</h1>
+<p>Reconstruct the game from pack parts:</p>
+<pre>cd game/pack
+cat part_*.b64 | tr -d '\n' | base64 -d | gzip -d > ../HOOPS_PRO_PREMIUM.html</pre>
+<p><a href="https://github.com/ucokravenia-afk/hoops-pro">Repo</a> · v1.0.0-premium-browser</p>
+</body>
+</html>
