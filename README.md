@@ -1,38 +1,46 @@
 # HOOPS// PRO
 
-HTML5 canvas basketball (2D) — career, manager, transfer center, media/rumors.
+**Basket HTML5 yang ngebut.** Career, manager, transfer, rumor media, skor CrazyGames.
+Bukan demo sekolah basah-basahan — ini build yang terus di-polish buat browser & portal game.
 
-**Repo:** https://github.com/ucokravenia-afk/hoops-pro  
-**Author:** [@ucokravenia-afk](https://github.com/ucokravenia-afk)
+> Drop the HTML. Full court. No excuses.
 
-## Cara main (paling mudah)
+## Main sekarang
 
-1. Dari sesi Grok, download `HOOPS_PRO_PREMIUM.html`
+1. Ambil `HOOPS_PRO_PREMIUM.html` (dari Grok / release)
 2. Buka di **Chrome / Edge**
-3. Opsional: file `derozia_eternal.mp3` di folder yang sama untuk BGM
+3. Optional: taruh `derozia_eternal.mp3` di folder yang sama biar BGM nyala
 
 ```bash
 git clone https://github.com/ucokravenia-afk/hoops-pro.git
 ```
 
-## Isi repo
+## Di dalemnya ada apa
 
-| Path | Keterangan |
-|------|------------|
-| `game/` | Loader playable (full HTML sync via Grok push) |
-| `docs/` | PLAY + DEVELOP |
-| `engine/` | Scaffold Unity/Unreal |
+- Match 2D + rules (shot clock, foul, VAR, OT, rebound/putback)
+- Career + Manager (transfer nego, medis, power rank, media)
+- Arena tematik klub (LED, jumbotron, bench, crowd mood)
+- CrazyGames SDK + AES-GCM score
+- Embed / 4K scale yang nggak gampang meledak FPS
 
-## Kolaborasi dengan Grok + GitHub
+## Folder
 
-Skill lokal: `hoops-pro-github` (push/commit/PR) dan `hoops-pro-advance` (arsitektur edit).
+| Path | Isi |
+|------|-----|
+| `game/` | Loader |
+| `docs/` | Tech notes (SDK, polish, AES) |
+| `engine/` | Scaffold Unity biar masa depan nggak kosong |
 
-Contoh perintah chat: *push update game ke GitHub* · *buat branch fitur injury*
+## Vibes vs realita
 
-## Status jujur
+Ini **canvas 2D premium web** — bukan NBA 2K di browser.  
+Kalau yang dicari PBR 4K native, itu jalur engine terpisah.  
+Kalau yang dicari *fun, rapi, bisa di-host CrazyGames* — kamu di tempat yang benar.
 
-Game **HTML5 2D** untuk portfolio/sekolah — bukan NBA 2K / FC 26 full.
+## Kontribusi
 
-## License
+Baca `CONTRIBUTING.md`. Push kecil, jangan rewrite gila-gilaan.
 
-Educational / portfolio. Branding fiksi — tanpa lisensi NBA resmi.
+---
+
+**HOOPS// PRO** · street to arena · keep cooking
