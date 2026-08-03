@@ -1,28 +1,38 @@
 # HOOPS// PRO
 
-Single-file HTML5 canvas basketball game (2D arcade + career + manager).
+HTML5 canvas basketball (2D) — career, manager, transfer center, media/rumors.
 
-## Play
+**Repo:** https://github.com/ucokravenia-afk/hoops-pro  
+**Author:** [@ucokravenia-afk](https://github.com/ucokravenia-afk)
 
-1. Open `game/index.html` in Chrome/Edge (local file or static host).
-2. Optional: place `derozia_eternal.mp3` next to `index.html` for BGM (not in repo due to size — add locally).
+## Cara main (paling mudah)
 
-## Features
+1. Dari sesi Grok, download `HOOPS_PRO_PREMIUM.html`
+2. Buka di **Chrome / Edge**
+3. Opsional: file `derozia_eternal.mp3` di folder yang sama untuk BGM
 
-- 5v5 / modes, rules engine (shot clock, travel, fouls, VAR, OT)
-- Career + Manager / franchise
-- Transfer center (negotiate fee, wage, clauses)
-- Media reputation & transfer rumors
-- Local accounts (PBKDF2)
+```bash
+git clone https://github.com/ucokravenia-afk/hoops-pro.git
+```
 
-## Develop with Grok
+## Isi repo
 
-Use skill **hoops-pro-github** when editing this repo via Grok + GitHub connection.
+| Path | Keterangan |
+|------|------------|
+| `game/` | Loader playable (full HTML sync via Grok push) |
+| `docs/` | PLAY + DEVELOP |
+| `engine/` | Scaffold Unity/Unreal |
+
+## Kolaborasi dengan Grok + GitHub
+
+Skill lokal: `hoops-pro-github` (push/commit/PR) dan `hoops-pro-advance` (arsitektur edit).
+
+Contoh perintah chat: *push update game ke GitHub* · *buat branch fitur injury*
+
+## Status jujur
+
+Game **HTML5 2D** untuk portfolio/sekolah — bukan NBA 2K / FC 26 full.
 
 ## License
 
-Educational / portfolio. Original branding only — no official NBA license.
-
-## Author
-
-GitHub: [@ucokravenia-afk](https://github.com/ucokravenia-afk)
+Educational / portfolio. Branding fiksi — tanpa lisensi NBA resmi.
